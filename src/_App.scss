@@ -1,0 +1,10 @@
+body {
+  background-color: #00040f;
+}
+
+@import "./components/companies/companies", "./components/navBar/navBar",
+  "./components/tryBar/tryBar";
+
+@import "./container/featureFs/featureFs", "./container/featureSc/featureSc",
+  "./container/footer/footer", "./container/landing/landing",
+  "./container/opinions/opinions", "./container/solutions/solutions";
