@@ -1,9 +1,11 @@
 body {
   background-color: #00040f;
+  position: relative;
+  overflow-x: hidden;
 }
 
 @import "./components/companies/companies", "./components/navBar/navBar",
-  "./components/tryBar/tryBar";
+  "./components/tryBar/tryBar", "./components/probabilities/probabilities";
 
 @import "./container/featureFs/featureFs", "./container/featureSc/featureSc",
   "./container/footer/footer", "./container/landing/landing",

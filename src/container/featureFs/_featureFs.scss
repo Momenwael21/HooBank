@@ -1,0 +1,98 @@
+@use "../../sassVars" as *;
+
+.featureFs {
+  padding: var(--sec-padding);
+  .main-desc {
+    padding: 30px;
+    .title {
+      font-weight: 600;
+      color: white;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+    .desc {
+      color: var(--text-color);
+      font-weight: lighter;
+      margin-bottom: 80px;
+    }
+    .started {
+      color: black;
+      @include main-grad;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 5px;
+      transition: 0.3s all ease-in-out;
+      &:hover {
+        border: 1px solid var(--main-cyan);
+        color: var(--main-cyan);
+        background: transparent !important;
+      }
+      text-decoration: none;
+
+      -webkit-transition: 0.3s all ease-in-out;
+      -moz-transition: 0.3s all ease-in-out;
+      -ms-transition: 0.3s all ease-in-out;
+      -o-transition: 0.3s all ease-in-out;
+
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+  }
+  .features {
+    padding: 40px;
+    .feature {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      margin: 10px 0;
+      &:hover {
+        background: linear-gradient(
+          153.47deg,
+          rgba(255, 255, 255, 0.5) -341.94%,
+          #14101d 95.11%
+        );
+      }
+      transition: 0.3s all ease-in-out;
+      -webkit-transition: 0.3s all ease-in-out;
+      -moz-transition: 0.3s all ease-in-out;
+      -ms-transition: 0.3s all ease-in-out;
+      -o-transition: 0.3s all ease-in-out;
+
+      .icon {
+        color: var(--main-cyan);
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: rgba(0, 247, 255, 0.1);
+        margin-right: 20px;
+
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      .feat-desc {
+        .title {
+          font-weight: 600;
+          color: white;
+          margin-bottom: 10px;
+        }
+        .desc {
+          color: var(--text-color);
+          line-height: 1.6;
+          font-weight: lighter;
+        }
+      }
+
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+    }
+  }
+}

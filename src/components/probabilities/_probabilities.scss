@@ -1,0 +1,36 @@
+@use "../../sassVars" as *;
+
+.probabilities {
+  padding: var(--sec-padding);
+  .static {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    @media (max-width: 991px) {
+      padding: 20px;
+    }
+    @media (max-width: 768px) {
+      justify-content: flex-start;
+      margin: 15px;
+    }
+  }
+  .number {
+    margin: 0;
+    color: white;
+    font-weight: 600;
+  }
+  .type {
+    margin: 0;
+    font-size: 18px;
+    @include text-grad;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 991px) {
+    margin-top: 320px;
+  }
+  @media (max-width: 768px) {
+    margin-top: 140px;
+  }
+}

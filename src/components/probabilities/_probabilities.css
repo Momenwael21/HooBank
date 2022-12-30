@@ -1,0 +1,15 @@
+@use "../../sassVars" as *;
+.probabilities {
+  padding: var(--sec-padding);
+}
+
+.probabilities .static {
+  display: flex;
+  align-items: center;
+}
+
+.probabilities .static .number {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}

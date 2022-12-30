@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { TbMenu2 } from "react-icons/tb";
 
 const NavBar = () => {
   return (
@@ -17,12 +18,9 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <TbMenu2 fontSize={30} color={"white"} className="icon" />
         </button>
-        <div
-          className="collapse navbar-collapse d-flex"
-          id="navbarSupportedContent"
-        >
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="/#">

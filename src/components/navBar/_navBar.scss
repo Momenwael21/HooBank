@@ -1,16 +1,26 @@
 nav {
-  background-color: transparent !important;
+  position: sticky;
+  top: 0;
   .navbar-brand {
     width: 100px;
     img {
       width: 100%;
     }
   }
+  .navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+    &:focus {
+      border: none !important;
+      outline: none !important;
+    }
+  }
+
   .navbar-nav {
     flex: 1;
     justify-content: flex-end;
     .nav-item {
-      padding: 10px 20px;
+      padding: 15px 20px;
       a {
         color: white;
         padding: 0;

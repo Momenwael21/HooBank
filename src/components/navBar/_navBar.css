@@ -1,5 +1,6 @@
 nav {
-  background-color: transparent !important;
+  position: sticky;
+  top: 0;
 }
 
 nav .navbar-brand {
@@ -10,13 +11,23 @@ nav .navbar-brand img {
   width: 100%;
 }
 
+nav .navbar-toggler {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+nav .navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+}
+
 nav .navbar-nav {
   flex: 1;
   justify-content: flex-end;
 }
 
 nav .navbar-nav .nav-item {
-  padding: 10px 20px;
+  padding: 15px 20px;
 }
 
 nav .navbar-nav .nav-item a {
