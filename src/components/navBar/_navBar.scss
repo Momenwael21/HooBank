@@ -1,1 +1,29 @@
- 
+nav {
+  background-color: transparent !important;
+  .navbar-brand {
+    width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+  .navbar-nav {
+    flex: 1;
+    justify-content: flex-end;
+    .nav-item {
+      padding: 10px 20px;
+      a {
+        color: white;
+        padding: 0;
+        transition: 0.3s all ease-in-out;
+        -webkit-transition: 0.3s all ease-in-out;
+        -moz-transition: 0.3s all ease-in-out;
+        -ms-transition: 0.3s all ease-in-out;
+        -o-transition: 0.3s all ease-in-out;
+        &:hover,
+        &:focus {
+          color: var(--main-cyan);
+        }
+      }
+    }
+  }
+}
