@@ -30,6 +30,7 @@
 @mixin card-grad {
   background: linear-gradient(110.53deg, #ffffff -265.46%, #14101d 96.75%);
   box-shadow: 4px 6px 30px rgba(19, 36, 46, 0.25);
+  backdrop-filter: blur(5px);
 }
 
 @mixin text-grad {

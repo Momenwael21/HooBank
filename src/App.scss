@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+.App {
+  overflow-x: hidden;
+}
+
 @import "./components/companies/companies", "./components/navBar/navBar",
   "./components/tryBar/tryBar", "./components/probabilities/probabilities";
 
