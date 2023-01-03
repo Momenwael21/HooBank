@@ -9,7 +9,8 @@ body {
 }
 
 @import "./components/companies/companies", "./components/navBar/navBar",
-  "./components/tryBar/tryBar", "./components/probabilities/probabilities";
+  "./components/tryBar/tryBar", "./components/opinionCard/_opinionCard.scss",
+  "./components/probabilities/probabilities";
 
 @import "./container/featureFs/featureFs", "./container/featureSc/featureSc",
   "./container/footer/footer", "./container/landing/landing",

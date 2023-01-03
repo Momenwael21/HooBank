@@ -1,0 +1,14 @@
+.companies {
+  padding: 0 0 80px;
+  .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    img {
+      width: 120px;
+    }
+  }
+}

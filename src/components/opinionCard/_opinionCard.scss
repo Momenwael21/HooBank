@@ -1,0 +1,58 @@
+@use "../../sassVars" as *;
+
+.opinion-card {
+  padding: 40px 30px;
+  border-radius: 20px;
+  height: 100%;
+  width: fit-content;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .opinion {
+    .icon {
+      font-size: 2rem;
+      color: rgba(0, 217, 245, 0.6);
+      margin-bottom: 40px;
+    }
+    .text {
+      color: white;
+      max-width: 300px;
+      margin-bottom: 40px;
+    }
+  }
+  .author {
+    display: flex;
+    align-items: center;
+    .photo {
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+      img {
+        width: 100%;
+      }
+    }
+    .details {
+      .name {
+        margin-bottom: 3px;
+        color: white;
+      }
+      .job {
+        margin: 0;
+        color: var(--text-color);
+        font-weight: lighter;
+      }
+    }
+  }
+  &:hover {
+    @include card-grad;
+    .icon {
+      color: rgba(0, 217, 245, 0.8);
+    }
+  }
+}
