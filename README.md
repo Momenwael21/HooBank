@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-You can get live demo from here [GPT-3](https://hoobankmw.netlify.app)
+You can get live demo from here [HooBank](https://hoobankmw.netlify.app)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://hoobankmw.netlify.app)![an IMage](./src/assets/liveDemo.png)
 
