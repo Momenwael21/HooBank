@@ -797,17 +797,49 @@ footer .more-info .social a .linkedin:hover {
   top: 20px;
   left: 50px;
 }
+@media (max-width: 768px) {
+  .landing .container .row .imagination .balls .ball1 {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    left: 50;
+  }
+}
 .landing .container .row .imagination .balls .ball2 {
   width: 55px;
   height: 55px;
   bottom: 70px;
   right: 40px;
 }
+@media (max-width: 768px) {
+  .landing .container .row .imagination .balls .ball2 {
+    width: 30px;
+    height: 30px;
+    bottom: 70px;
+  }
+}
+@media (max-width: 576px) {
+  .landing .container .row .imagination .balls .ball2 {
+    right: 20px;
+  }
+}
 .landing .container .row .imagination .balls .ball3 {
   width: 40px;
   height: 40px;
   left: 90px;
   bottom: 0;
+}
+@media (max-width: 768px) {
+  .landing .container .row .imagination .balls .ball3 {
+    width: 20px;
+    height: 20px;
+    bottom: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .landing .container .row .imagination .balls .ball3 {
+    left: 30px;
+  }
 }
 .landing .container .row .imagination::before {
   content: "";
@@ -834,6 +866,9 @@ footer .more-info .social a .linkedin:hover {
   margin-right: 0;
   height: 400px;
   text-align: center;
+  position: relative;
+  animation: cards-animation 5s infinite linear;
+  -webkit-animation: cards-animation 5s infinite linear;
 }
 .landing .container .row .imagination .card-detail img {
   width: 100%;
@@ -855,8 +890,14 @@ footer .more-info .social a .linkedin:hover {
 }
 @media (max-width: 768px) {
   .landing .container .row .imagination .card-detail {
-    width: 250px;
+    width: 230px;
     height: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .landing .container .row .imagination .card-detail {
+    width: 250px;
+    bottom: -120px;
   }
 }
 .landing .hand {
@@ -874,8 +915,13 @@ footer .more-info .social a .linkedin:hover {
 }
 @media (max-width: 768px) {
   .landing .hand {
-    width: 80%;
     bottom: -180px;
+  }
+}
+@media (max-width: 576px) {
+  .landing .hand {
+    width: 90%;
+    bottom: -120px;
   }
 }
 .landing .hand img {
@@ -906,6 +952,29 @@ footer .more-info .social a .linkedin:hover {
   }
 }
 
+@-webkit-keyframes cards-animation {
+  0% {
+    top: 20px;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 20px;
+  }
+}
+
+@keyframes cards-animation {
+  0% {
+    top: 20px;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 20px;
+  }
+}
 .opinions {
   padding: var(--sec-padding);
   position: relative;

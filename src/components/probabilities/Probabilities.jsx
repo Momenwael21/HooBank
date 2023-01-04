@@ -5,19 +5,33 @@ const Probabilities = () => {
     <div className="probabilities">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6 col-lg-4">
+          <div
+            className="col-sm-12 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
             <div className="static">
               <h2 className="number">3800+</h2>
               <p className="type">User Active</p>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-4">
+          <div
+            className="col-sm-12 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="200"
+          >
             <div className="static">
               <h2 className="number">230+</h2>
               <p className="type">TRUSTED BY COMPANY</p>
             </div>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-4">
+          <div
+            className="col-sm-12 col-md-12 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="400"
+          >
             <div className="static">
               <h2 className="number">$230M+</h2>
               <p className="type">TRANSACTION</p>

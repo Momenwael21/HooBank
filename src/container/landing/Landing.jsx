@@ -11,7 +11,12 @@ const Landing = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-6">
+          <div
+            className="col-sm-12 col-md-12 col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <div className="discount">
               <TbDiscount2 className="icon" />
               <p className="discount-desc">
@@ -37,7 +42,12 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-6">
+          <div
+            className="col-sm-12 col-md-12 col-lg-6"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
             <div className="imagination">
               <div className="balls">
                 <div className="ball1"></div>

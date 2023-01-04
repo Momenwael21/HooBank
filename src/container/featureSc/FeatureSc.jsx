@@ -17,7 +17,11 @@ const FeatureSc = () => {
         <div className="row">
           <div className="col-sm-12 col-lg-6">
             <div className="cards">
-              <div className="card-paypal">
+              <div
+                className="card-paypal"
+                data-aos="fade-down"
+                data-aos-duration="500"
+              >
                 <div className="paypal">
                   <div className="logo">
                     <img src={paypal} alt="paypal-logo" />
@@ -36,7 +40,11 @@ const FeatureSc = () => {
                 </div>
                 <p className="button-grad">Make Payment</p>
               </div>
-              <div className="transactions">
+              <div
+                className="transactions"
+                data-aos="fade-right"
+                data-aos-duration="500"
+              >
                 <h3 className="title">Last Transaction</h3>
                 <div className="transaction">
                   <div className="company">
@@ -84,13 +92,21 @@ const FeatureSc = () => {
                   </div>
                 </div>
               </div>
-              <div className="payment-success">
+              <div
+                className="payment-success"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
                 <BsFillCheckCircleFill fontSize={25} className="icon" />
                 <p>Great! Your Payment is succesfully.</p>
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-lg-6">
+          <div
+            className="col-sm-12 col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
             <div className="details">
               <h1 className="title">
                 Easily control your <br /> billing & invoicing.

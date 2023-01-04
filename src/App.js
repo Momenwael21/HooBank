@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
@@ -13,6 +15,7 @@ import {
 } from "./container/index";
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <NavBar />

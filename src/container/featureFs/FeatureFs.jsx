@@ -5,13 +5,17 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const featureFs = () => {
   return (
-    <section className="featureFs">
+    <section className="featureFs" id="features">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-lg-6">
+          <div
+            className="col-sm-12 col-lg-6"
+            data-aos="fade-right"
+            data-aos-duration="700"
+          >
             <div className="main-desc">
               <h1 className="title">
-                You do the business, we’ll handle the money.
+                You do the business, we'll handle the money.
               </h1>
               <p className="desc">
                 With the right credit card, you can improve your financial life
@@ -23,7 +27,11 @@ const featureFs = () => {
               </a>
             </div>
           </div>
-          <div className="col-sm-12 col-lg-6">
+          <div
+            className="col-sm-12 col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="700"
+          >
             <div className="features">
               <div className="feature">
                 <div className="icon">

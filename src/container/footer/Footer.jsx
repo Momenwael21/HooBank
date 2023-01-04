@@ -8,7 +8,12 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6 col-lg-4">
+          <div
+            className="col-sm-12 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="100"
+          >
             <div className="brand">
               <div className="logo">
                 <img src={logo} alt="Logo" />
@@ -18,7 +23,12 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-3">
+          <div
+            className="col-sm-12 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="300"
+          >
             <div className="useful-col">
               <p className="title">Usefull Links</p>
               <div className="links">
@@ -30,7 +40,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-2">
+          <div
+            className="col-sm-12 col-md-6 col-lg-2"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="500"
+          >
             <div className="community-col">
               <p className="title">Community</p>
               <div className="links">
@@ -42,7 +57,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-3">
+          <div
+            className="col-sm-12 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="700"
+          >
             <div className="partner-col">
               <p className="title">Partner</p>
               <div className="links">

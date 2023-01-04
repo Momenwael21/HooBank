@@ -6,10 +6,14 @@ import { apple, paypal, shopify, graph, visa } from "./imports";
 
 const Solutions = () => {
   return (
-    <section className="solutions">
+    <section className="solutions" id="solutions">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-lg-6">
+          <div
+            className="col-sm-12 col-lg-6"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
             <div className="description">
               <h1 className="title">
                 Find a better card deal <br /> in few easy steps.
@@ -26,14 +30,22 @@ const Solutions = () => {
           <div className="col-sm-12 col-lg-6">
             <div className="cards">
               <div className="content">
-                <div className="circles-back">
+                <div
+                  className="circles-back"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="600"
+                >
                   <div className="circle1">
                     <div className="circle2">
                       <div className="circle3"></div>
                     </div>
                   </div>
                 </div>
-                <div className="scan-card">
+                <div
+                  className="scan-card"
+                  data-aos="fade-right"
+                  data-aos-duration="600"
+                >
                   <div className="icon">
                     <TbScan fontSize={25} />
                   </div>
@@ -42,7 +54,11 @@ const Solutions = () => {
                     Scan yourcredit card in <br /> 4 minutes.
                   </p>
                 </div>
-                <div className="analysis-card">
+                <div
+                  className="analysis-card"
+                  data-aos="fade-left"
+                  data-aos-duration="600"
+                >
                   <div className="head">
                     <h5 className="title">Online Analysis</h5>
                     <div className="date">
@@ -76,7 +92,11 @@ const Solutions = () => {
                     </div>
                   </div>
                 </div>
-                <div className="method-card">
+                <div
+                  className="method-card"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                >
                   <div className="head">
                     <h5 className="title">Pay Method</h5>
                     <div className="icon">

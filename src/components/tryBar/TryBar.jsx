@@ -2,7 +2,7 @@ import React from "react";
 
 const TryBar = () => {
   return (
-    <div className="try-bar">
+    <div className="try-bar" data-aos="fade-down" data-aos-duration="600">
       <div className="container">
         <div className="bar">
           <div className="text">
