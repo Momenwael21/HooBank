@@ -14,7 +14,7 @@ You can get live demo from here [HooBank](https://hoobankmw.netlify.app)
 
 ## Overview
 
-HooBank is single page website with a modren UI/UX design about new payment method for hoo bank.
+HooBank is single page website with a modern UI/UX design about new payment method for hoo bank.
 
 ## Technologies
 
